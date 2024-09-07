@@ -1,0 +1,11 @@
+/bin
+/lib
+*.pyc
+__pycache__
+.env
+/backend/env
+# Ignore all migration files except __init__.py inside any migrations folder
+**/migrations/*.py
+**/migrations/*.pyc
+**/migrations/__pycache__/
+!**/migrations/__init__.py
